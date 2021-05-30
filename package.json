@@ -14,9 +14,11 @@
     "decentraland-ecs": "latest"
   },
   "dependencies": {
+    "@dcl/ui-scene-utils": "^1.8.1",
     "eth-connect": "^6.0.0"
   },
   "bundleDependencies": [
-    "eth-connect"
+    "eth-connect",
+    "@dcl/ui-scene-utils"
   ]
 }

@@ -6,6 +6,9 @@
     "paths": {
       "eth-connect": [
         "node_modules\\eth-connect\\eth-connect.d.ts"
+      ],
+      "@dcl/ui-scene-utils": [
+        "node_modules\\@dcl\\ui-scene-utils\\dist\\index.d.ts"
       ]
     },
     "baseUrl": "."

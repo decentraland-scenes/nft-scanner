@@ -4,7 +4,9 @@ _demo of nft-scanner scene running in preview._
 ![demo](https://github.com/decentraland-scenes/nft-scanner/blob/main/screenshots/nft-scanner.gif)
 
 ## Description
-Checks whether the player owns a token from a particular smart contract before granting them permission to enter the club. In this example, we're checking whether the player owns a key from [The Meta Key](https://themetakey.com) project, .
+Checks whether the player owns a token from a particular smart contract before granting them permission to enter the club. In this example, we're checking whether the player owns a key from [The Meta Key](https://themetakey.com) project.
+
+> Note: There's a simpler version of this scene [here](https://github.com/decentraland-scenes/nft-scanner-basic).
 
 ## Instructions
 Walk up to the door and press the <kbd>E</kbd> key to see if you can access the club. The door will open and the audio quality increases if you own the Genesis Key, which is the first key minted from this contract [contract](https://etherscan.io/address/0x10daa9f4c0f985430fde4959adb2c791ef2ccf83). Please feel free to modify the `contractAddress` along with the `tokenID` within the `game.ts` file to test other scenarios - you'll also need to update the `abi.ts` file to with the corresponding _Contract ABI_, which can be found using at https://etherscan.io/address/ with the _contract address_ appended at the end of the URL. 
